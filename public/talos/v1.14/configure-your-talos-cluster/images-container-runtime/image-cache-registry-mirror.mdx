@@ -30,7 +30,7 @@ talosctl images k8s-bundle | \
 You can generate the certificates using the following command:
 
 ```bash
-talosctl image cache-cert-gen --advertise-address=172.20.0.1 \
+talosctl image cache-cert-gen --advertised-address=172.20.0.1 \
   --tls-ca-file=/tmp/ca.crt \
   --tls-cert-file=/tmp/tls.crt \
   --tls-key-file=/tmp/tls.key
